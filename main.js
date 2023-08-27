@@ -4,6 +4,8 @@ import todoStore from './src/store/todo.store';
 
 console.log('Hi main.js');
 
-todoStore.initStore();
+todoStore.initStore();  // -> loadStore();
+
+
 // document.querySelector('#app').innerHTML = `<div></div>`
 App('#app');
